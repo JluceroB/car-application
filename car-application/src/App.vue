@@ -1,18 +1,18 @@
 <template>
   <div>
-      <Header></Header>
-      <CarList></CarList>
+    <Header />
+    <CarList />
   </div>
 </template>
 
 <script>
-import Header from './Header.vue';
-import CarList from './CarList.vue';
+import Header from './components/Header.vue';
+import CarList from './components/CarList.vue';
 
 export default {
   components: {
-      Header,
-      CarList
+    Header,
+    CarList
   }
 }
 </script>

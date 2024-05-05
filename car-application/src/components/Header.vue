@@ -12,7 +12,7 @@
   
   <script>
   export default {
-    name: "Header"
+    name: "Header-app"
   }
   </script>
   
@@ -21,22 +21,17 @@
     background-color: #333;
     color: #fff;
     padding: 1em;
-    text-align: center;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: center;
   }
   
   ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     gap: 1em;
   }
   
-  li {
-   
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  </style>
   
