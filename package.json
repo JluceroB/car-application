@@ -1,13 +1,15 @@
 {
-  "name": "webdevfinal",
+  "name": "car-inventory-website",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "A car inventory website project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.15"
+  }
 }
