@@ -1,0 +1,42 @@
+[
+    {
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2021,
+        "color": "red",
+        "mileage": 15000,
+        "available": true
+    },
+    {
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "color": "blue",
+        "mileage": 25000,
+        "available": false
+    },
+    {
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2018,
+        "color": "black",
+        "mileage": 30000,
+        "available": true
+    },
+    {
+        "make": "Chevrolet",
+        "model": "Impala",
+        "year": 2020,
+        "color": "white",
+        "mileage": 18000,
+        "available": true
+    },
+    {
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2017,
+        "color": "gray",
+        "mileage": 40000,
+        "available": false
+    }
+]
