@@ -1,18 +1,16 @@
+<!-- src/App.vue -->
 <template>
-  <div>
-    <Header />
-    <CarList />
+  <div id="app">
+    <h1>Welcome to Car Application</h1>
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import CarList from './components/CarList.vue';
-
 export default {
-  components: {
-    Header,
-    CarList
-  }
+  name: 'App',
 }
 </script>
+
+<style>
+/* Add global styles here */
+</style>
